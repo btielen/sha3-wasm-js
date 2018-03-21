@@ -1,0 +1,23 @@
+{
+  "name": "sha3-wasm",
+  "version": "1.0.0",
+  "description": "SHA3 hashes with WebAssembly",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sha3",
+    "wasm",
+    "shake256",
+    "shake128"
+  ],
+  "author": "Benno Tielen",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=8.3"
+  }
+}
